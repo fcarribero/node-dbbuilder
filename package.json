@@ -1,5 +1,5 @@
 {
-    "name": "node-dbbuilder",
+    "name": "dbbuilder",
     "version": "0.1.0",
     "description": "Node module for managing the database structure of you application",
     "main": "index.js",
@@ -23,9 +23,7 @@
     },
     "homepage": "https://github.com/fcarribero/node-dbbuilder",
     "dependencies": {
-        "mysql": "^2.5.3"
-    },
-    "devDependencies": {
+        "mysql": "^2.5.3",
         "minimist": "^1.1.0"
     },
     "engines": {
