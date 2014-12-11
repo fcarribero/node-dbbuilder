@@ -1,9 +1,9 @@
-# node-dbbuilder
+# dbbuilder
 
 ## Install
 
 ```sh
-$ npm install node-dbbuilder
+$ npm install dbbuilder
 ```
 
 ## Introduction
@@ -16,7 +16,7 @@ Note: This is a module I made for my own usage...at first. It was intended for o
 
 ```js
 var fs = require('fs');
-var dbbuilder = require('node-dbbuilder');
+var dbbuilder = require('dbbuilder');
 
 var config = JSON.parse(fs.readFileSync('./database_structure.json'));
 
