@@ -1,6 +1,6 @@
 {
     "name": "dbbuilder",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "description": "Node module for managing the database structure of you application",
     "main": "index.js",
     "directories": {
