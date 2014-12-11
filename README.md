@@ -18,6 +18,6 @@ var dbbuilder = require('node-dbbuilder');
 
 var config = JSON.parse(fs.readFileSync('./database_structure.json'));
 
-dbbuilder.initialize("localhost","username","password","database", config);
+dbbuilder.initialize("localhost", "username", "password", "database", config);
 dbbuilder.update();
 ```
