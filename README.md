@@ -3,7 +3,7 @@
 ## Install
 
 ```sh
-$ npm install dbbuilder
+$ npm install -g dbbuilder
 ```
 
 ## Introduction
@@ -12,16 +12,10 @@ This is a module for managing the DB structure of your Node application. This wa
 
 Note: This is a module I made for my own usage...at first. It was intended for only manage MySQL engines, but you can contribute by helping me to make it more flexible, so we can use it with more engines. Take in mind that this module is really experimental.
 
-## Usage
+## Usage example
 
-```js
-var fs = require('fs');
-var dbbuilder = require('dbbuilder');
-
-var config = JSON.parse(fs.readFileSync('./database_structure.json'));
-
-dbbuilder.initialize("localhost", "username", "password", "database", config);
-dbbuilder.update();
+```sh
+dbbuilder -h localhost -u username -p password -d database db.config.json
 ```
 
 ## DB structure example
