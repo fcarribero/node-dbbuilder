@@ -15,7 +15,7 @@ Note: This is a module I made for my own usage...at first. It was intended for o
 ## Usage example
 
 ```sh
-dbbuilder -h localhost -u username -p password -d database db.config.json
+$ dbbuilder -h localhost -u username -p password -d database db.config.json
 ```
 
 ## DB structure example
