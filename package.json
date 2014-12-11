@@ -1,0 +1,31 @@
+{
+    "name": "node-dbbuilder",
+    "version": "0.1.0",
+    "description": "Node module for managing the database structure of you application",
+    "main": "index.js",
+    "directories": {
+        "test": "test"
+    },
+    "scripts": {},
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/fcarribero/node-dbbuilder.git"
+    },
+    "keywords": [
+        "node",
+        "database",
+        "mysql"
+    ],
+    "author": "Francisco Carribero <francisco.carribero@webneex.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/fcarribero/node-dbbuilder/issues"
+    },
+    "homepage": "https://github.com/fcarribero/node-dbbuilder",
+    "dependencies": {
+        "mysql": "^2.5.3"
+    },
+    "devDependencies": {
+        "minimist": "^1.1.0"
+    }
+}
