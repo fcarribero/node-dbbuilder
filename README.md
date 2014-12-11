@@ -8,7 +8,7 @@ $ npm install node-dbbuilder
 
 ## Introduction
 
-This is a node.js module for managing you DB structure. This way you can keep you DB structure in a json file and let this module create/update your tables and fields automatically.
+This is a module for managing the DB structure of your Node application. This way you can keep you DB structure in a json file and let this module create/update your tables and fields automatically.
 
 ## Usage
 
